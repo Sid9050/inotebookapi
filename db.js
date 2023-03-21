@@ -1,5 +1,5 @@
 const mongoose =require('mongoose')
-const mongoUri='mongodb://27017/iNotebookmongodb+srv://sidchawla2015:Sid123456@cluster0.2hcl3yq.mongodb.net/iNotebook?retryWrites=true&w=majority'
+const mongoUri='mongodb+srv://sidchawla2015:Sid123456@cluster0.2hcl3yq.mongodb.net/?retryWrites=true&w=majority'
 
 
 
