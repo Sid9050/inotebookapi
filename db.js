@@ -6,8 +6,7 @@ const mongoUri='mongodb://27017/iNotebookmongodb+srv://sidchawla2015:Sid123456@c
 const connectToMongo=()=>{
     mongoose.connect(mongoUri,{
     useNewUrlParser: true, 
-    useUnifiedTopology: true, 
-    serverApi: ServerApiVersion.v1
+    useUnifiedTopology: true
 })
 .then(db => console.log('DB is connected'))
 .catch(err => console.log(err));
